@@ -1,0 +1,88 @@
+.navbar{
+   background-color: #353a40;
+}
+.navbar-brand{
+   color:#fffefc
+}
+.imgFondo {
+   background-image: url("../assets/img/hawaii.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 80vh;
+   background-color: rgb(66, 63, 63);
+   background-blend-mode: soft-light;
+   margin-top: 5em;
+}
+.col-md-6{
+   background-color: #353a40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.enviar {
+  width: 45%;
+  height: 45px;
+  margin-top: 10px;
+  background-color: rgb(187, 240, 108);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.col-75 {
+  float: center;
+  width: 50%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .col-75, input[type=submit]{
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+.footer{
+   grid-area: footer;
+   background: #1e4c66;
+   display: inline-block;
+   width: 100%;
+   bottom: 0;
+ }
+ .footernav {
+   padding: 25px;
+   float: center;
+ }
+ 
+ .footernav>a{
+   float: center;
+   color: white;
+   text-decoration:none;
+   padding: 5px;
+ }
+ 

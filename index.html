@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Los Oradores</title>
+</head>
+
+<body>
+
+   <!-- Header -->
+   <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+         <a class="navbar-brand" href="#">
+            <img src="./assets/img/codoacodo.png" alt="Logo" width="100" class="d-inline-block align-text-center">
+            Conf Bs As</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active text-white " aria-current="page" href="#" >La conferencia</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white-50" href="#oradores">Los oradores</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white-50" href="#lugar">El lugar y la fecha</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white-50 " href="#form">Conviértete en orador</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active text-success" href="./Pagina/comprarticket.html">Comprar Tickets</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!-- main principal -->
+   <div class="container-fluid">
+      <div class="row imgFondo align-items-center flex-row-reverse">
+         <div class="col-sm-6 text-white text-end m-5">
+            <h1>Conf Bs As</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora consequatur nostrum delectus sit
+               corporis perferendis, voluptate, voluptatibus eaque consequuntur illum</p>
+            <a class="btn btn-outline-light " href="#form">Quiero ser orador</a>
+            <a class="btn btn-success " href="./Pagina/comprarticket.html">Comprar tickets</a>
+         </div>
+      </div>
+   </div>
+
+   <!-- Section oradores -->
+   <div class="container" id="oradores">
+      <h4 class="text-center text-uppercase fw-normal">Conoce a los </h4>
+      <h2 class="text-center text-uppercase">Oradores</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+         <div class="col">
+           <div class="card">
+             <img src="./assets/img/steve.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <div class="d-flex">
+                  <p class="text-start badge bg-primary text-wrap p-2">Javascript</p>
+                  <p class="text-start badge bg-warning p-2">React</p>
+               </div>
+               <h5 class="card-title">Steve Jobs</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card">
+             <img src="./assets/img/bill.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <div class="d-flex">
+                  <p class="text-start badge bg-primary text-wrap p-2">Javascript</p>
+                  <p class="text-start badge bg-warning p-2">React</p>
+               </div>
+               <h5 class="card-title">Bill Gates</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card">
+             <img src="./assets/img/ada.jpeg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <div class="d-flex">
+                  <p class="text-start badge bg-secondary text-wrap p-2">Negocios</p>
+                  <p class="text-start badge bg-danger p-2">Startups</p>
+               </div>
+               <h5 class="card-title">Ada Lovelace</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+   </div>
+
+   <!-- Lugar y fecha -->
+   <div class="container-fluid mt-3" id="lugar">
+      <div class="row g-0">
+         <div class="col-md-6">
+            <img src="./assets/img/honolulu.jpg" class="img-fluid" alt="Honolulu" loading="lazy">
+         </div>
+         <div class="col-md-6 ">
+            <div class="card-body">
+               <h5 class="card-title text-white m-2">Bs As-Octubre</h5>
+               <p class="card-text text-white m-2">Buenos Aires es la provincia y localidad mas grande del estado de Argentina,en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses.Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu,la ciudad y el condado de Honululu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie)</p>
+               <a href="https://es.wikipedia.org/wiki/Buenos_Aires" class="btn btn-outline-light gap-2 col-md-4 m-2">Conoce mas</a>
+             </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Conviertete en orador -->
+   <div class="quieroserorador" id="form">
+     <h2 class="text-uppercase text-center fs-4 fw-light">conviertete en</h2>
+     <h1 class="text-uppercase text-center fs-3 fw-bold">orador</h1>
+     <h3 class="text-center fs-5 fw-light">Anotate como orador para dar una <a href="https://www.entrepreneur.com/es/emprendedores/aqui-se-explica-como-postularse-para-dar-una-charla-tedx/424591">charla ignite. </a>Cuentanos de que quieres hablar</h3>
+   </div>
+   <br>
+   <!--Form-->
+   <div class="container">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Nombre">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Apellido">
+        </div>
+      </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Sobre que quieres hablar?" style="height:200px"></textarea>
+        <label for="">Recuerda incluir un titulo para tu charla</label><br>
+      <input type="submit" class="enviar" value="Enviar">
+   </div>
+      </form>
+   </div>
+
+    <!--Footer-->
+
+    <footer>
+    <footer class="footer">
+      <nav class="footernav nav justify-content-center ">
+         <a href="#">Preguntas Frecuentes</a>
+         <a href="#contact">Contactanos</a> 
+         <a href="#prensa">Prensa</a>
+         <a href="#conferencias">Conferencias</a>
+         <a href="#terminosycondiciones">Terminos y condiciones</a>
+         <a href="#privacidad">Privacidad</a>
+         <a href="#estudiantes">Estudiantes</a>
+      </nav>
+   </footer>
+    
+
+   <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
